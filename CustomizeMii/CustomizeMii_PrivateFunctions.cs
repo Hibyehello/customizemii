@@ -69,7 +69,7 @@ namespace CustomizeMii
                 { errorBox("Please enter a valid Startup IOS! (0 - 255)"); return false; }
 
                 //Check brlan files
-                string[] validBrlans = new string[] { "banner.brlan", "icon.brlan", "banner_loop.brlan", "banner_start.brlan" };
+                string[] validBrlans = new string[] { "banner.brlan", "icon.brlan", "icon_Rso0.brlan", "icon_Rso1.brlan", "banner_loop.brlan", "banner_Rso0.brlan", "banner_Rso1.brlan", "banner_Rso2.brlan", "banner_Rso3.brlan", "banner_Rso4.brlan", "banner_Rso5.brlan", "banner_start.brlan" };
                 foreach (string thisBrlan in lbxBrlanBanner.Items)
                 {
                     if (!Array.Exists(validBrlans, brlanName => brlanName.ToLower() == thisBrlan.ToLower()))
